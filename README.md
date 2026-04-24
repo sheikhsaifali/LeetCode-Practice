@@ -49,7 +49,7 @@ Each problem is approached with:
 |------|--------|
 | Arrays | 🔄 In Progress |
 | Strings | 🔄 In Progress |
-| Linked List | ⏳ Pending |
+| Linked List | ⏳ In Progress |
 | Stack & Queue | ⏳ Pending |
 | Trees | ⏳ Pending |
 | Graphs | ⏳ Pending |
