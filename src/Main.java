@@ -1,7 +1,4 @@
-import com.knightforge.dev.MergeTwoArray;
-import com.knightforge.dev.RemoveDuplicatesArray;
-import com.knightforge.dev.SquaresSortedArray;
-import com.knightforge.dev.TwoSumII;
+import com.knightforge.dev.*;
 
 import java.util.Arrays;
 
@@ -21,5 +18,7 @@ public class Main {
         System.out.println("Square of Sorted Array:");
         SquaresSortedArray sqa = new SquaresSortedArray();
         Arrays.stream(sqa.sortedSquares(new int[]{2, 3, 3, 4})).forEach(System.out::print);
+        System.out.println("Three sum of array:");
+        new Three_Sum().threeSum(new int[]{-1,0,1,2,-1,-4}).stream().forEach(System.out::println);
     }
 }
