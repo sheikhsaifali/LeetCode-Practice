@@ -27,11 +27,11 @@ public class Three_Sum {
             while(left<right)
             {
                 s=nums[left]+nums[right];
-                if(sum<s)
+                if(sum>s)
                 {
                     left++;
                 }
-                else if(sum>s)
+                else if(sum<s)
                 {
                     right--;
                 }
@@ -41,11 +41,11 @@ public class Three_Sum {
                     left++;
                     right--;
                     //unique for left and right
-                    while(left<nums.length && nums[left+1]==nums[left])
+                    while(left<nums.length && nums[left-1]==nums[left])
                     {
                         left++;
                     }
-                    while(right>0 && nums[right-1]==nums[right])
+                    while(right>=0 && nums[right+1]==nums[right])
                     {
                         right--;
                     }
