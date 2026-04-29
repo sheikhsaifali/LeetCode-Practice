@@ -1,4 +1,6 @@
-import com.knightforge.dev.*;
+import com.knightforge.dev.sliding_window.Max_Sum_Subarray;
+import com.knightforge.dev.sliding_window.Minimum_Size_Subarray_Sum;
+import com.knightforge.dev.two_pointer.*;
 
 import java.util.Arrays;
 
@@ -20,5 +22,9 @@ public class Main {
         Arrays.stream(sqa.sortedSquares(new int[]{2, 3, 3, 4})).forEach(System.out::print);
         System.out.println("Three sum of array:");
         new Three_Sum().threeSum(new int[]{-1,0,1,2,-1,-4}).stream().forEach(System.out::println);
+        System.out.println("Max Sum Subarray of size K:");
+        System.out.println(new Max_Sum_Subarray().maxSubarraySum(new int[]{100, 200, 300, 400}, 3));
+        System.out.println("Minimum Size Subarray Sum:");
+        System.out.println(new Minimum_Size_Subarray_Sum().minSubArrayLen(7, new int[]{2,3,1,2,4,3}));
     }
 }

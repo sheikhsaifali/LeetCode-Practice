@@ -1,4 +1,4 @@
-package com.knightforge.dev;
+package com.knightforge.dev.two_pointer;
 
 import java.util.ArrayList;
 import java.util.Collections;

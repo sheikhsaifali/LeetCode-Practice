@@ -1,4 +1,4 @@
-package com.knightforge.dev;
+package com.knightforge.dev.two_pointer;
 
 public class RemoveDuplicatesArray {
     public int removeDuplicates(int[] nums) {
