@@ -1,3 +1,4 @@
+import com.knightforge.dev.sliding_window.Longest_Substring_with_K_Uniques;
 import com.knightforge.dev.sliding_window.Max_Sum_Subarray;
 import com.knightforge.dev.sliding_window.Minimum_Size_Subarray_Sum;
 import com.knightforge.dev.two_pointer.*;
@@ -26,5 +27,7 @@ public class Main {
         System.out.println(new Max_Sum_Subarray().maxSubarraySum(new int[]{100, 200, 300, 400}, 3));
         System.out.println("Minimum Size Subarray Sum:");
         System.out.println(new Minimum_Size_Subarray_Sum().minSubArrayLen(7, new int[]{2,3,1,2,4,3}));
+        System.out.println("Longest Substring with K Uniques:");
+        System.out.println(new Longest_Substring_with_K_Uniques().longestKSubstr("aabacbebebe", 3));
     }
 }
