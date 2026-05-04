@@ -29,7 +29,7 @@ public class Main {
         System.out.println(new Longest_Substring_with_K_Uniques().longestKSubstr("aabacbebebe", 3));
         System.out.println("Fruit Into Baskets:");
         System.out.println(new Fruit_Into_Baskets().totalFruit(new int[]{1,2,3,2,2}));
-        System.out.println("Fruit Into Baskets:");
+        System.out.println("Longest Substring Without Repeating Characters:");
         System.out.println(new Longest_Substring_Without_Repeating_Characters().lengthOfLongestSubstring("pwwkew"));
     }
 }
